@@ -8,6 +8,7 @@ const {
   const { books, authors } = require('../data/data.js');
   const { BookType, AuthorType } = require('./types');
   
+  // Mutations are the GraphQL equivalents of POST, PUT, and DELETE requests in a RESTful API
   const mutations = new GraphQLObjectType({
     name: 'Mutation',
     description: 'Root Mutation',
